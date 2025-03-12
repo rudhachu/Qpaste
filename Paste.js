@@ -3,9 +3,9 @@ const path = require('path');
 
 const RandomNames = [
     'Rudhra~rUd0hRaArH3dur',
+    'Rudhra~RuD0rAaRh3DuR',
     'Rudhra~ArH0durRUd3rA',
-    'Rudhra~RUd0rAaRh3DuR',
-    'Rudhra~aRh0DuRrUd3hRa',
+    'Rudhra~aRh0DuRrUd3hRa'
 ];
 
 /**
