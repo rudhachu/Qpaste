@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const RandomNames = [
-    'Rudhra~rUd1hRaArH2dur',
-    'Rudhra~ArH2durRUd3rA',
-    'Rudhra~RUd3rAaRh4DuR',
-    'Rudhra~aRh4DuRrUd1hRa',
+    'Rudhra~rUd0hRaArH3dur',
+    'Rudhra~ArH0durRUd3rA',
+    'Rudhra~RUd0rAaRh3DuR',
+    'Rudhra~aRh0DuRrUd3hRa',
 ];
 
 /**
