@@ -1,7 +1,12 @@
-// src/main.js
 const fs = require('fs');
 const path = require('path');
-// const PASTEBIN_API_KEY = process.env.PASTEBIN_API_KEY; // Replace with your Pastebin API key
+
+const RandomNames = [
+    'Rudhra~rUd1hRa_',
+    'Rudhra~ArH2dur_',
+    'Rudhra~RuD3rA_',
+    'Rudhra~aRh4DuR_',
+];
 
 /**
  * Uploads content to Pastebin, handling different input types like text, files, and base64 data.
@@ -64,7 +69,7 @@ async function uploadToPastebin(input, title = 'Untitled', format = 'json', priv
 
         // Manipulate the URL: Remove 'https://pastebin.com/' and prepend custom words
         const pasteId = pasteUrl.replace('https://pastebin.com/', '');
-        const customUrl = `Some-Custom-Words_${pasteId}`;
+        const customUrl = `${RandomNames[Math.floor(Math.random() * RandomNames.length)]}${pasteId}`;
 
         console.log('Custom URL:', customUrl);
 
